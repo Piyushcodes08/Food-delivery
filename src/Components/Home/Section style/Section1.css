@@ -1,0 +1,59 @@
+.section{
+    background-image: url(../../../assets/hero/hero-1.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   padding-top: 170px;
+   padding-bottom: 90px;
+}
+.hero .price-badge {
+  background: url("../../../assets/hero/price-badge-yellow.png") no-repeat center
+    center;
+  background-size: cover;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  min-width: 180px;
+  height: 170px;
+  text-align: center;
+}
+.badge_text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.txt{
+      font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.price{
+     font-size: 2.875rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.hero_text{
+    text-align: center;
+    color: var(--white);
+}
+.txt1{
+    font-family: var(--lilita-font);
+  font-size: 7rem;
+  line-height: 1;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+}
+.txt2{
+     font-family: var(--lilita-font);
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+.para{
+     padding: 0 5%;
+     padding-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+header .navbar{
+  position: absolute;
+width: 100%;
+background-color:transparent;
+z-index: 1000;
+}
+
+
+header .nav-link:hover {
+  color: var(--yellow);
+}
+ header .logo img{
+  width: auto;
+  max-width: inherit;
+  max-height: 80px;
+}
+header .nav-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.25rem !important;
+  color:var(--white);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var("Oswald", sans-serif);
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  header .navbar {
+    background-color: var(--white);
+  }
+  header .navbar-toggler {
+    border: none;
+  }
+  header .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  header .navbar-toggler-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  header .nav-link {
+    color: var(--light-black);
+    padding: 1rem !important;
+  }
+}
