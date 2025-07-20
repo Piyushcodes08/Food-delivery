@@ -31,7 +31,7 @@ const mockData = [
 
   return (
     <>
-<section className="about">
+<section className="about" id="about">
    <Container>
     <Row>
         <Col lg={{span:8, offset:2}}>

@@ -8,7 +8,7 @@ import User5 from "../../../assets/blog/review-author-5.jpg";
 
 const Section6 = () => {
   return (
-    <section className="blog_section">
+    <section className="blog_section" id='blog'>
       <Container>
         <Row>
           <Carousel>

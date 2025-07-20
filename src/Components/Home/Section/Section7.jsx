@@ -5,7 +5,7 @@ import '../Section style/Section7.css'
 
 const Section7 = () => {
   return (
-    <section className="contact_section">
+    <section className="contact_section" id='contact'>
       <Container>
         <Row className="justify-content-center">
           <Col sm={8} className="text-center">

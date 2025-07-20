@@ -82,7 +82,7 @@ const mockData = [
 
 const Section3 = () => {
     return (
-        <section className="menu">
+        <section className="menu" id='menu'>
             <Container>
                 <Row className='text-center'>
 

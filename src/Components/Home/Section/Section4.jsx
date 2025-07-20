@@ -6,7 +6,7 @@ import '../Section style/Section4.css'
 const Section4 = () => {
   return (
     <>
-   <section className="promotion_section">
+   <section className="promotion_section" id='shop'>
     <Container>
         <Row className='align-items-center'>
             <Col lg={6} className="text-center mb-5 mb-lg-0">
